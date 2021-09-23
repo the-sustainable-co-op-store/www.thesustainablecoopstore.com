@@ -69,3 +69,11 @@
     justify-content: center;
 }
 
+img.prince-of-whales {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
