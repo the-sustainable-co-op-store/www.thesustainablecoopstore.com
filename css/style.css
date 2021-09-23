@@ -77,3 +77,6 @@ img.prince-of-whales {
     border-radius: 50%;
 }
 
+.container #mc_embed_signup input.email {
+    width: inherit;
+}
