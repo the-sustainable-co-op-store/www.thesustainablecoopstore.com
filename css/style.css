@@ -29,10 +29,18 @@
     justify-content: center;
 }
 
-
+/* smallest devices (default) */
 .profile {
 	width: calc(90vw / 2);
 }
+
+.hero-banner .card {
+	margin-top: 25px;
+}
+.container #mc_embed_signup input.button {
+	height: 43px;
+}
+
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -42,6 +50,18 @@
 	}
 	.profile:nth-child(odd) {
 	    margin-top: 85px;
+	}
+	.hero-banner .card {
+    	margin-top: 0;
+	}
+	.container #mc_embed_signup input.email {
+	    width: inherit;
+	}
+	.container #mc_embed_signup input.button {
+		height: 32px;
+	}
+	.hero-banner .hero-banner__content p {
+	    margin-bottom: 23px;
 	}
 }
 
@@ -63,6 +83,7 @@
 .profile img {
     border-radius: 50%;
     box-shadow: 1px 1px 9px #000;
+    max-width: 175px;
 }
 
 .meet-the-team .row {
@@ -77,6 +98,6 @@ img.prince-of-whales {
     border-radius: 50%;
 }
 
-.container #mc_embed_signup input.email {
-    width: inherit;
+.hero-banner .card {
+    box-shadow: 1px 1px 5px #858383;
 }
